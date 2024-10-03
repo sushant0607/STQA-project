@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: "Aclonica", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: auto;
+    background-color: #e0be36;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo {
+    margin-left: 20px;
+}
+
+.logo-img {
+    height: 60px;
+    width: 90px;
+}
+
+.heading-name {
+    font-size: 45px;
+    margin: 0;
+    color: #25160B;
+}
+
+.cart {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.cart-logo, .user-logo {
+    font-size: 42px;
+    color: #18412b;
+}
