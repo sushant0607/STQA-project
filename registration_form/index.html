@@ -23,5 +23,32 @@
             <i class="bi bi-person-circle user-logo"></i>
         </div>
     </div>
+    <div class="content">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn">LOGIN</button>
+                <button class="tab-btn active">REGISTER</button>
+            </div>
+            
+            <div class="google">
+                <button class="google-btn">GOOGLE</button>
+            </div>
+            
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="username">username</label>
+                    <input type="text" id="username" name="username" pattern="[a-z0-9]+" title="Only lowercase letters, numbers, and underscores allowed" required>
+    
+                    <label for="new-password">new password</label>
+                    <input type="password" id="new-password" name="new-password" minlength="8" required>
+    
+                    <label for="confirm-password">confirm new password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
+    
+                    <button type="submit" class="register-btn">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
