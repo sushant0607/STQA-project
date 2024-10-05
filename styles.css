@@ -44,7 +44,7 @@ body {
 .main {
     width: auto;
     height: 455px;
-    background-image: url('main image.png');
+    background-image: url('main_image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
